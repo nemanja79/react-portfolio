@@ -41,6 +41,11 @@ const Contact = () => {
     const arrayContact = stringContact.split('');
     const position = [51.505, -0.09]
 
+    useEffect(() => {
+        setTimeout(() => {
+            setLetterClass('text-animate-hover')
+        }, 4000)
+    }, [])
 
     return (
         <>
