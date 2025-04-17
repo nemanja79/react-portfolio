@@ -37,8 +37,7 @@ const Contact = () => {
 
     };
 
-    const stringContact = 'Contact me';
-    const arrayContact = stringContact.split('');
+    const arrayContact = 'Contact me'.split('');
     const position = [51.505, -0.09]
 
     useEffect(() => {
